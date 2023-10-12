@@ -1,0 +1,204 @@
+/* Existing styles for .image-container and .comment-popup */
+.image-comments-container{
+  display: flex;
+}
+.image-container {
+  position: relative;
+  margin-left: 30vw;
+}
+.image-container img {
+  background-size: 100%;
+  width: 70vw;
+  cursor:crosshair;
+}
+
+.comment-popup {
+  position: absolute;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  max-width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.comment-popup input[type="text"] {
+  width: 10vw;
+  border: none;
+  padding: 5px;
+  margin: 5px 0;
+  border-bottom: 1px solid #ccc;
+}
+.comment-popup-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.comment-popup-button:hover {
+  background-color: #0056b3;
+}
+
+/* New styles for .comment-sidebar */
+.comment-sidebar {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 23vw;
+  position: absolute;
+  height: 79vh;
+  overflow-y: scroll;
+}
+
+.comment-sidebar h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.comment-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.comment-sidebar li {
+  margin-bottom: 20px;
+}
+.comment-sidebar li:hover{
+  background-color: #f1f5f8;
+  cursor: pointer;
+}
+
+
+.comment-content {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.comment-text {
+  margin-top: 5px;
+}
+
+.comment-actions {
+  margin-top: 5px;
+}
+
+.comment-popup-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+.comment-popup-button:hover {
+  background-color: #0056b3;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+/* CSS for the comment index */
+.comment-index {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 50%; /* Make it a circle */
+}
+.comment-index:hover{
+  cursor: pointer;
+}
+
+
+
+/* Style for the dropdown menu */
+.comment-dropdown {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.dropdown-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.comment-dropdown span:hover{
+  background-color: #fff;
+}
+
+.dots {
+  font-size: 20px;
+}
+
+/* Dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right: 0;
+  top: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.comment-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Style for dropdown items (buttons) */
+.dropdown-content button {
+  width: 100%;
+  text-align: left;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: black;
+}
+
+.dropdown-content button:hover {
+  background-color: #f1f1f1;
+}
+
+
+.comment-details-popup {
+  position: absolute;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  max-width: 300px;
+  white-space: nowrap;
+  overflow: visible;
+  text-overflow: ellipsis;
+  z-index: 2;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  margin-top: 35vh;
+  margin-left: 55vw;
+}

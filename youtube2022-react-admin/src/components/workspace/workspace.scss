@@ -1,0 +1,27 @@
+.searchtab{
+
+    width: 80vw;
+    flex: 1;
+    border: 1px solid grey;
+    margin: 20px;
+
+
+}
+
+.workspace{
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.mainsection{
+
+    flex: 5;
+    border: 1px solid grey;
+    margin: 20px;
+    height: 60 vh;
+    width: 80 vw;
+
+}

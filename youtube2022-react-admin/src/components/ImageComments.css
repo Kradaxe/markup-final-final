@@ -1,0 +1,76 @@
+/* Existing styles for .image-container and .comment-popup */
+.image-comments-container{
+  display: flex;
+}
+.image-container {
+  position: relative;
+  margin-left: 30vw;
+}
+.image-container img {
+  background-size: 100%;
+  width: 70vw;
+}
+
+.comment-popup {
+  position: absolute;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  max-width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.comment-popup input[type="text"] {
+  width: 10vw;
+  border: none;
+  padding: 5px;
+  margin: 5px 0;
+  border-bottom: 1px solid #ccc;
+}
+.comment-popup button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.comment-popup button:hover {
+  background-color: #0056b3;
+}
+
+/* New styles for .comment-sidebar */
+.comment-sidebar {
+  background-color: #f1f5f8;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 23vw;
+  position: absolute;
+  height: 79vh;
+  overflow-y: none;
+}
+
+.comment-sidebar h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.comment-sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.comment-sidebar li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}

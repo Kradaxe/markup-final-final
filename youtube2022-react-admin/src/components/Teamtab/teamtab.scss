@@ -1,0 +1,38 @@
+.Head{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Teamtab{
+
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.inactiveTab{
+
+    display: none;
+
+}
+
+.active{
+
+    display: block;
+
+}
+
+.ContentMembers{
+
+    display: block;
+
+}
+.ContentGuests{
+
+    display: block;
+
+}
